@@ -11,7 +11,7 @@ import {
   useLanguage
 } from './LanguageContext.jsx';
 
-const API = 'https://shms-backend-q9ie.onrender.com/api';
+const API = 'https://shms-backend-g9ie.onrender.com/api';
 
 // =====================================================
 // AUTH HELPERS
