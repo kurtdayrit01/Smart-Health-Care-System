@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import './Appointments.css';
 import { useLanguage } from './LanguageContext.jsx';
 
-const API = 'http://localhost:4000/api/appointments';
+const API = 'https://shms-backend-g9ie.onrender.com/api/appointments';
 
 function getToken() {
   return sessionStorage.getItem('token') || '';

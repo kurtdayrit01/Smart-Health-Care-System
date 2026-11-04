@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './PatientAI.css';
 import { useLanguage } from './LanguageContext.jsx';
 
-const API = 'http://localhost:4000/api';
+const API = 'https://shms-backend-g9ie.onrender.com/api';
 
 export default function PatientAI() {
   const { language } = useLanguage();

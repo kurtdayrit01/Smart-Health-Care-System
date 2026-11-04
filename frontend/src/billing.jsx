@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import './billing.css';
 import { useLanguage } from './LanguageContext.jsx';
 
-const API = 'http://localhost:4000/api/billing';
+const API = 'https://shms-backend-g9ie.onrender.com/api/billing';
 
 const money = value =>
   '₱' + Number(value || 0).toLocaleString('en-PH', {

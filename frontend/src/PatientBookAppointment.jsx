@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './PatientBookAppointment.css';
 import { useLanguage } from './LanguageContext.jsx';
 
-const API = 'http://localhost:4000/api/appointments';
+const API = 'https://shms-backend-g9ie.onrender.com/api/appointments';
 
 function getLocalDateString(date) {
   const year = date.getFullYear();
